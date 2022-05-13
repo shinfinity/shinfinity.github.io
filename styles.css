@@ -1,0 +1,34 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk62168058-wikimedia-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=6e247ec31f21827732bb2f20eaf11dc4');
+  background-size: 100% 400%;
+  background-repeat: no-repeat;
+}
+
+#sandcat_img {
+  height: 300px;
+}
+
+#sandcat_eat_img {
+  width: 60%;
+}
+
+h1,h2,p,a {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#link{
+    cursor: pointer;
+}
+
+#box{
+  background-color: lightgrey;
+  width: 80%;
+  margin: auto;
+  box-shadow: 2px 2px;
+  border-radius: 30px;
+}

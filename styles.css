@@ -13,8 +13,21 @@ body {
   height: 300px;
 }
 
+#quokka_img {
+  height: 300px;
+}
+
+#owl_img {
+  height: 300px;
+}
+
+
 #sandcat_eat_img {
   width: 60%;
+}
+
+#sandcatfacts {
+  height: 300px;
 }
 
 h1,h2,p,a {
@@ -31,4 +44,46 @@ h1,h2,p,a {
   margin: auto;
   box-shadow: 2px 2px;
   border-radius: 30px;
+}
+
+section#gallery {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#gallery-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul li {
+  margin: 0 5px;
+  display: inline-block;
+  border:1px solid #fff;
+  cursor: pointer;
+}
+
+ul li img {
+  display: block;
+  height: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+	max-width: 800px;
+	margin: 3rem auto 3rem;
+	border:2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

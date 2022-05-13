@@ -27,7 +27,7 @@ body {
   height: 300px;
 }
 
-h1,h2,p,a {
+h1,h2,h3,li,p,a {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
